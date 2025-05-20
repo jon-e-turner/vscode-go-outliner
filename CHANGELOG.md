@@ -5,9 +5,11 @@ All notable changes to the "go-outliner" extension will be documented in this fi
 
 ## 0.2.0 - 2025-05-20
 
+### Changed
+
 - Updated packages across the board.
   - Removed deprecated packages `vscode` and `tslint`.
-  - Added replacements `eslint` and `typescript-eslint`.
+  - Added replacements `@types/vscode`, `eslint`, and `typescript-eslint`.
   - Updated everything that remained to latest version.
   - Added `ts-mocha` package and updated `test` script to use it.
 - Updated TypeScript source to clear warnings and errors raised by `eslint` and `tsc`
